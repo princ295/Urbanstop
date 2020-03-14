@@ -1,1 +1,1 @@
- echo "web: gunicorn webapi.wsgi" >> Procfile
+web: gunicorn [replace the square brackets and the contents with the name of your django project].wsgi
