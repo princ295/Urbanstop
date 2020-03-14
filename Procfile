@@ -1,1 +1,3 @@
-echo "web: webapi" >> Procfile
+web: gunicorn [webapinoteapp].wsgi
+
+
