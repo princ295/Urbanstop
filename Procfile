@@ -1,0 +1,1 @@
+ echo "web: gunicorn webapi.wsgi" >> Procfile
